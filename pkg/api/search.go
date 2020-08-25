@@ -3,10 +3,10 @@ package api
 import (
 	"strconv"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/metrics"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/services/search"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/metrics"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/services/search"
 )
 
 func Search(c *m.ReqContext) {

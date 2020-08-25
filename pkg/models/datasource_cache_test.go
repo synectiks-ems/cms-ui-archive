@@ -6,9 +6,9 @@ import (
 
 	. "github.com/smartystreets/goconvey/convey"
 
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/setting"
-	"github.com/xformation/cms-ui/pkg/util"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 func TestDataSourceCache(t *testing.T) {

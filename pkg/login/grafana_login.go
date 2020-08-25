@@ -3,9 +3,9 @@ package login
 import (
 	"crypto/subtle"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/util"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 var validatePassword = func(providedPassword string, userPassword string, userSalt string) error {

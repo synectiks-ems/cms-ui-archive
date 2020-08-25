@@ -7,11 +7,11 @@ import (
 	"net/http/httputil"
 	"net/url"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/log"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/plugins"
-	"github.com/xformation/cms-ui/pkg/util"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/plugins"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 type templateData struct {

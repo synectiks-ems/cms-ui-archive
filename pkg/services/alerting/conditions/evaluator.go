@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/xformation/cms-ui/pkg/components/null"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/services/alerting"
+	"github.com/synectiks-ems/ems-ui/pkg/components/null"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/services/alerting"
 )
 
 var (

@@ -9,13 +9,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/events"
-	"github.com/xformation/cms-ui/pkg/log"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/registry"
-	"github.com/xformation/cms-ui/pkg/setting"
-	"github.com/xformation/cms-ui/pkg/util"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/events"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/registry"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 var mailTemplates *template.Template

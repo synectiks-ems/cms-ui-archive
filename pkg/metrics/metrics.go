@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/plugins"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/plugins"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 const exporterName = "grafana"

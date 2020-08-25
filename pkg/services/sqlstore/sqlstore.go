@@ -11,23 +11,23 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/log"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/registry"
-	"github.com/xformation/cms-ui/pkg/services/annotations"
-	"github.com/xformation/cms-ui/pkg/services/cache"
-	"github.com/xformation/cms-ui/pkg/services/sqlstore/migrations"
-	"github.com/xformation/cms-ui/pkg/services/sqlstore/migrator"
-	"github.com/xformation/cms-ui/pkg/services/sqlstore/sqlutil"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/registry"
+	"github.com/synectiks-ems/ems-ui/pkg/services/annotations"
+	"github.com/synectiks-ems/ems-ui/pkg/services/cache"
+	"github.com/synectiks-ems/ems-ui/pkg/services/sqlstore/migrations"
+	"github.com/synectiks-ems/ems-ui/pkg/services/sqlstore/migrator"
+	"github.com/synectiks-ems/ems-ui/pkg/services/sqlstore/sqlutil"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/go-xorm/xorm"
 
 	_ "github.com/lib/pq"
 	sqlite3 "github.com/mattn/go-sqlite3"
-	_ "github.com/xformation/cms-ui/pkg/tsdb/mssql"
+	_ "github.com/synectiks-ems/ems-ui/pkg/tsdb/mssql"
 )
 
 var (

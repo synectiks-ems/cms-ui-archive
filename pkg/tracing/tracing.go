@@ -5,9 +5,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/registry"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/registry"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 
 	opentracing "github.com/opentracing/opentracing-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"

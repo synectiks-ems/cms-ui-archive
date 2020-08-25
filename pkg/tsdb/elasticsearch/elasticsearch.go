@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/tsdb"
-	"github.com/xformation/cms-ui/pkg/tsdb/elasticsearch/client"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb/elasticsearch/client"
 )
 
 // ElasticsearchExecutor represents a handler for handling elasticsearch datasource request

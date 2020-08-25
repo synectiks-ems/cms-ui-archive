@@ -7,8 +7,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 )
 
 func (e *CloudWatchExecutor) executeAnnotationQuery(ctx context.Context, queryContext *tsdb.TsdbQuery) (*tsdb.Response, error) {

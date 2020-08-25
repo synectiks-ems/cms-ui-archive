@@ -8,8 +8,8 @@ import (
 	"os"
 	"path"
 
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/util"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 	"golang.org/x/oauth2/google"
 )
 

@@ -3,9 +3,9 @@ package search
 import (
 	"sort"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/registry"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/registry"
 )
 
 func init() {

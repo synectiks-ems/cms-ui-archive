@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 )
 
 var renders map[string]QueryDefinition

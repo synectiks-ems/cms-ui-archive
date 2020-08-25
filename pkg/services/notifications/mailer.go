@@ -12,8 +12,8 @@ import (
 	"net"
 	"strconv"
 
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/setting"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 	gomail "gopkg.in/mail.v2"
 )
 

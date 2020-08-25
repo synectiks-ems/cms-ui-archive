@@ -2,11 +2,11 @@ package api
 
 import (
 	"github.com/go-macaron/binding"
-	"github.com/xformation/cms-ui/pkg/api/avatar"
-	"github.com/xformation/cms-ui/pkg/api/dtos"
-	"github.com/xformation/cms-ui/pkg/api/routing"
-	"github.com/xformation/cms-ui/pkg/middleware"
-	m "github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/api/avatar"
+	"github.com/synectiks-ems/ems-ui/pkg/api/dtos"
+	"github.com/synectiks-ems/ems-ui/pkg/api/routing"
+	"github.com/synectiks-ems/ems-ui/pkg/middleware"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 func (hs *HTTPServer) registerRoutes() {

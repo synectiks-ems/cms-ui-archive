@@ -3,17 +3,17 @@ package api
 import (
 	"bytes"
 	"fmt"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
 	"io/ioutil"
 	"net/http"
 	"strings"
 
-	"github.com/xformation/cms-ui/pkg/api/dtos"
-	"github.com/xformation/cms-ui/pkg/bus"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/plugins"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/api/dtos"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/plugins"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 const (

@@ -1,7 +1,7 @@
 package elasticsearch
 
 import (
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
 )
 
 // Query represents the time series query model of the datasource

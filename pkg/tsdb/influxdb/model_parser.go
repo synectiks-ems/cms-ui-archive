@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 )
 
 type InfluxdbQueryParser struct{}

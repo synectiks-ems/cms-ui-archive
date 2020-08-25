@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/services/alerting"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/services/alerting"
 )
 
 func TestThreemaNotifier(t *testing.T) {

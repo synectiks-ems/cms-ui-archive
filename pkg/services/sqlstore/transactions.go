@@ -5,8 +5,8 @@ import (
 	"time"
 
 	sqlite3 "github.com/mattn/go-sqlite3"
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
 )
 
 func (ss *SqlStore) InTransaction(ctx context.Context, fn func(ctx context.Context) error) error {

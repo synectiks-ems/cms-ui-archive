@@ -1,9 +1,9 @@
 package tsdb
 
 import (
-	"github.com/xformation/cms-ui/pkg/components/null"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/components/null"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 type TsdbQuery struct {

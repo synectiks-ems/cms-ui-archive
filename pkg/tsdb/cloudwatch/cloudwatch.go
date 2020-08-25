@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/setting"
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 	"golang.org/x/sync/errgroup"
 
 	"github.com/aws/aws-sdk-go/aws"
@@ -21,9 +21,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/service/cloudwatch"
 	"github.com/aws/aws-sdk-go/service/ec2/ec2iface"
-	"github.com/xformation/cms-ui/pkg/components/null"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/metrics"
+	"github.com/synectiks-ems/ems-ui/pkg/components/null"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/metrics"
 )
 
 type CloudWatchExecutor struct {

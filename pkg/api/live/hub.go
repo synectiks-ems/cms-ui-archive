@@ -3,9 +3,9 @@ package live
 import (
 	"context"
 
-	"github.com/xformation/cms-ui/pkg/api/dtos"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/api/dtos"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
 )
 
 type hub struct {

@@ -1,6 +1,6 @@
 package alerting
 
-import "github.com/xformation/cms-ui/pkg/components/null"
+import "github.com/synectiks-ems/ems-ui/pkg/components/null"
 
 type Job struct {
 	Offset     int64

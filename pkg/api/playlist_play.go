@@ -4,11 +4,11 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/xformation/cms-ui/pkg/api/dtos"
-	"github.com/xformation/cms-ui/pkg/bus"
-	_ "github.com/xformation/cms-ui/pkg/log"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/services/search"
+	"github.com/synectiks-ems/ems-ui/pkg/api/dtos"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	_ "github.com/synectiks-ems/ems-ui/pkg/log"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/services/search"
 )
 
 func populateDashboardsByID(dashboardByIDs []int64, dashboardIDOrder map[int64]int) (dtos.PlaylistDashboardsSlice, error) {

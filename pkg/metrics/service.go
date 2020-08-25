@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/metrics/graphitebridge"
-	"github.com/xformation/cms-ui/pkg/registry"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/metrics/graphitebridge"
+	"github.com/synectiks-ems/ems-ui/pkg/registry"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 var metricsLogger log.Logger = log.New("metrics")

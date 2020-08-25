@@ -3,7 +3,7 @@ package imguploader
 import (
 	"testing"
 
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

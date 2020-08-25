@@ -6,9 +6,9 @@ import (
 	"path/filepath"
 
 	"github.com/go-macaron/session"
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/middleware"
-	m "github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/middleware"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
 	"gopkg.in/macaron.v1"
 
 	. "github.com/smartystreets/goconvey/convey"

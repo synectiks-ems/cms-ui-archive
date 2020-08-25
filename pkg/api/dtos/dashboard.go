@@ -3,7 +3,7 @@ package dtos
 import (
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
 )
 
 type DashboardMeta struct {

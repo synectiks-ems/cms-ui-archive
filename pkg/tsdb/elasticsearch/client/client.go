@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 
-	"github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
 	"golang.org/x/net/context/ctxhttp"
 )
 

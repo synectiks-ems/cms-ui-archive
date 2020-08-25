@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	services "github.com/xformation/cms-ui/pkg/cmd/cms-cli/services"
+	services "github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/services"
 )
 
 var removePlugin func(pluginPath, id string) error = services.RemoveInstalledPlugin

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 var ErrTimeout = errors.New("Timeout error. You can set timeout in seconds with &timeout url parameter")

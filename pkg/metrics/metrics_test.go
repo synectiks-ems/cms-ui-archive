@@ -12,11 +12,11 @@ import (
 	"net/http/httptest"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/plugins"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/plugins"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 func TestMetrics(t *testing.T) {

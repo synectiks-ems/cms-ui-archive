@@ -1,6 +1,6 @@
 package migrations
 
-import . "github.com/xformation/cms-ui/pkg/services/sqlstore/migrator"
+import . "github.com/synectiks-ems/ems-ui/pkg/services/sqlstore/migrator"
 
 // commented out because of the deadcode CI check
 //func addStatsMigrations(mg *Migrator) {

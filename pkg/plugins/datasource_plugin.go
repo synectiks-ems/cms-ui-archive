@@ -10,11 +10,11 @@ import (
 	"time"
 
 	plugin "github.com/hashicorp/go-plugin"
-	"github.com/xformation/cms-ui-plugin-model/go/datasource"
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/plugins/datasource/wrapper"
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/cms-ui-plugin-model/go/datasource"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/plugins/datasource/wrapper"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 )
 
 // DataSourcePlugin contains all metadata about a datasource plugin

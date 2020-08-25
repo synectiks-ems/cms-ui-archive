@@ -3,9 +3,9 @@ package sqlstore
 import (
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/events"
-	m "github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/events"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 func init() {

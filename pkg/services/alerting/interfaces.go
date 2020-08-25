@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 type EvalHandler interface {

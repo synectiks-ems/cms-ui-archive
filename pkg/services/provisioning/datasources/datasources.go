@@ -3,11 +3,11 @@ package datasources
 import (
 	"errors"
 
-	"github.com/xformation/cms-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
 
-	"github.com/xformation/cms-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
 
-	"github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 var (

@@ -7,12 +7,12 @@ import (
 
 	gocontext "context"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/components/null"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/services/alerting"
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/components/null"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/services/alerting"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 )
 
 func init() {

@@ -1,9 +1,9 @@
 package securejsondata
 
 import (
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/setting"
-	"github.com/xformation/cms-ui/pkg/util"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 type SecureJsonData map[string][]byte

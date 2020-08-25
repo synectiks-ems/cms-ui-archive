@@ -2,16 +2,16 @@ package api
 
 import (
 	"bytes"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
 	"net/http"
 	"sort"
 
-	"github.com/xformation/cms-ui/pkg/api/dtos"
-	"github.com/xformation/cms-ui/pkg/bus"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/plugins"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/api/dtos"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/plugins"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 var moduleRestClient = &http.Client{

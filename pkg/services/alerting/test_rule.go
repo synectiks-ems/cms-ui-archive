@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	m "github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 type AlertTestCommand struct {

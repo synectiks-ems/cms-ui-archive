@@ -1,8 +1,8 @@
 package login
 
 import (
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/setting"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 var loginUsingLdap = func(query *m.LoginUserQuery) (bool, error) {

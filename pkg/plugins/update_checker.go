@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/go-version"
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 var (
@@ -86,7 +86,7 @@ func (pm *PluginManager) checkForUpdates() {
 		}
 	}
 
-	resp2, err := httpClient.Get("https://raw.githubusercontent.com/xformation/cms-ui/master/latest.json")
+	resp2, err := httpClient.Get("https://raw.githubusercontent.com/synectiks-ems/ems-ui/master/latest.json")
 	if err != nil {
 		log.Trace("Failed to get latest.json repo from github.com: %v", err.Error())
 		return

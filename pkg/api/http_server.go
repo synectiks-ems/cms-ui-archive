@@ -12,26 +12,26 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/xformation/cms-ui/pkg/api/routing"
+	"github.com/synectiks-ems/ems-ui/pkg/api/routing"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
 	macaron "gopkg.in/macaron.v1"
 
-	"github.com/xformation/cms-ui/pkg/api/live"
-	httpstatic "github.com/xformation/cms-ui/pkg/api/static"
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/middleware"
-	"github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/plugins"
-	"github.com/xformation/cms-ui/pkg/registry"
-	"github.com/xformation/cms-ui/pkg/services/cache"
-	"github.com/xformation/cms-ui/pkg/services/datasources"
-	"github.com/xformation/cms-ui/pkg/services/hooks"
-	"github.com/xformation/cms-ui/pkg/services/rendering"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/api/live"
+	httpstatic "github.com/synectiks-ems/ems-ui/pkg/api/static"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/middleware"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/plugins"
+	"github.com/synectiks-ems/ems-ui/pkg/registry"
+	"github.com/synectiks-ems/ems-ui/pkg/services/cache"
+	"github.com/synectiks-ems/ems-ui/pkg/services/datasources"
+	"github.com/synectiks-ems/ems-ui/pkg/services/hooks"
+	"github.com/synectiks-ems/ems-ui/pkg/services/rendering"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 func init() {

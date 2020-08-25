@@ -4,8 +4,8 @@ import (
 	ms "github.com/go-macaron/session"
 	"gopkg.in/macaron.v1"
 
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/services/session"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/services/session"
 )
 
 func Sessioner(options *ms.Options, sessionConnMaxLifetime int64) macaron.Handler {

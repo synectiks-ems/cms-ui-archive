@@ -2,7 +2,7 @@ package models
 
 import (
 	"errors"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 	"time"
 )
 

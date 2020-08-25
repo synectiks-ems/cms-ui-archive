@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/xformation/cms-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
 )
 
 const (

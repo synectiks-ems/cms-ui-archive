@@ -3,7 +3,7 @@ package influxdb
 import (
 	"testing"
 
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 )
 
 func TestInfluxdbQueryPart(t *testing.T) {

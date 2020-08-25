@@ -3,7 +3,7 @@ package es
 import (
 	"encoding/json"
 
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 )
 
 // SearchRequest represents a search request

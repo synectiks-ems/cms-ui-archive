@@ -3,7 +3,7 @@ package sqlstore
 import (
 	"strings"
 
-	m "github.com/xformation/cms-ui/pkg/models"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 // SearchBuilder is a builder/object mother that builds a dashboard search query

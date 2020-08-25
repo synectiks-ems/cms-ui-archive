@@ -4,7 +4,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/components/securejsondata"
+	"github.com/synectiks-ems/ems-ui/pkg/components/securejsondata"
 )
 
 var (

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 )
 
 const rsIdentifier = `([_a-zA-Z0-9]+)`

@@ -3,7 +3,7 @@ package sqlstore
 import (
 	"fmt"
 
-	glog "github.com/xformation/cms-ui/pkg/log"
+	glog "github.com/synectiks-ems/ems-ui/pkg/log"
 
 	"github.com/go-xorm/core"
 )

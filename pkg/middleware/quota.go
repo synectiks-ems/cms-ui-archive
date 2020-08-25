@@ -5,8 +5,8 @@ import (
 
 	"gopkg.in/macaron.v1"
 
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/services/quota"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/services/quota"
 )
 
 func Quota(target string) macaron.Handler {

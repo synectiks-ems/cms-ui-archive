@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/Unknwon/com"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/setting"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 const timeLimitCodeLength = 12 + 6 + 40

@@ -1,7 +1,7 @@
 package search
 
 import "strings"
-import "github.com/xformation/cms-ui/pkg/models"
+import "github.com/synectiks-ems/ems-ui/pkg/models"
 
 type HitType string
 

@@ -3,7 +3,7 @@ package migrations
 import (
 	"fmt"
 
-	. "github.com/xformation/cms-ui/pkg/services/sqlstore/migrator"
+	. "github.com/synectiks-ems/ems-ui/pkg/services/sqlstore/migrator"
 )
 
 func addDropAllIndicesMigrations(mg *Migrator, versionSuffix string, table Table) {

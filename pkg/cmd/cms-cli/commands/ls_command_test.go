@@ -2,8 +2,8 @@ package commands
 
 import (
 	"errors"
-	"github.com/xformation/cms-ui/pkg/cmd/cms-cli/commands/commandstest"
-	s "github.com/xformation/cms-ui/pkg/cmd/cms-cli/services"
+	"github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/commands/commandstest"
+	s "github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/services"
 	. "github.com/smartystreets/goconvey/convey"
 	"testing"
 )

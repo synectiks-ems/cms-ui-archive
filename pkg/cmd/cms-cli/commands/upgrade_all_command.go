@@ -1,9 +1,9 @@
 package commands
 
 import (
-	"github.com/xformation/cms-ui/pkg/cmd/cms-cli/logger"
-	m "github.com/xformation/cms-ui/pkg/cmd/cms-cli/models"
-	s "github.com/xformation/cms-ui/pkg/cmd/cms-cli/services"
+	"github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/logger"
+	m "github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/models"
+	s "github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/services"
 	"github.com/hashicorp/go-version"
 )
 

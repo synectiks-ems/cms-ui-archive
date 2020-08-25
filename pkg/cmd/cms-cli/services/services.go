@@ -13,8 +13,8 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/cmd/cms-cli/logger"
-	m "github.com/xformation/cms-ui/pkg/cmd/cms-cli/models"
+	"github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/logger"
+	m "github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/models"
 )
 
 var (

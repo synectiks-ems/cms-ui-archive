@@ -12,14 +12,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
 
-	"github.com/xformation/cms-ui/pkg/components/null"
+	"github.com/synectiks-ems/ems-ui/pkg/components/null"
 
 	"github.com/go-xorm/core"
 	"github.com/go-xorm/xorm"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 // SqlMacroEngine interpolates macros into sql. It takes in the Query to have access to query context and

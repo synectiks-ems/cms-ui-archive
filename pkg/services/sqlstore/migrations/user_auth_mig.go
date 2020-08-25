@@ -1,6 +1,6 @@
 package migrations
 
-import . "github.com/xformation/cms-ui/pkg/services/sqlstore/migrator"
+import . "github.com/synectiks-ems/ems-ui/pkg/services/sqlstore/migrator"
 
 func addUserAuthMigrations(mg *Migrator) {
 	userAuthV1 := Table{

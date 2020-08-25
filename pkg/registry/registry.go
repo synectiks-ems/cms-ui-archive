@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/xformation/cms-ui/pkg/services/sqlstore/migrator"
+	"github.com/synectiks-ems/ems-ui/pkg/services/sqlstore/migrator"
 )
 
 type Descriptor struct {

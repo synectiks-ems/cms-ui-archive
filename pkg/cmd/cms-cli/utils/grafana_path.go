@@ -3,7 +3,7 @@ package utils
 import (
 	"os"
 
-	"github.com/xformation/cms-ui/pkg/cmd/cms-cli/logger"
+	"github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/logger"
 )
 
 func GetGrafanaPluginDir(currentOS string) string {

@@ -1,7 +1,7 @@
 package migrations
 
 import (
-	. "github.com/xformation/cms-ui/pkg/services/sqlstore/migrator"
+	. "github.com/synectiks-ems/ems-ui/pkg/services/sqlstore/migrator"
 )
 
 func addAlertMigrations(mg *Migrator) {

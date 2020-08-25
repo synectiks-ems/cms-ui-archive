@@ -4,14 +4,14 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/components/imguploader"
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/metrics"
-	"github.com/xformation/cms-ui/pkg/services/rendering"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/components/imguploader"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/metrics"
+	"github.com/synectiks-ems/ems-ui/pkg/services/rendering"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 
-	m "github.com/xformation/cms-ui/pkg/models"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 type NotifierPlugin struct {

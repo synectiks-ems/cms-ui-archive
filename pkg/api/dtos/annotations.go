@@ -1,6 +1,6 @@
 package dtos
 
-import "github.com/xformation/cms-ui/pkg/components/simplejson"
+import "github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
 
 type PostAnnotationsCmd struct {
 	DashboardId int64            `json:"dashboardId"`

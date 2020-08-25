@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
-	m "github.com/xformation/cms-ui/pkg/models"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 func TestUserStarsDataAccess(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/xformation/cms-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
 )
 
 type DashboardProvisioner struct {

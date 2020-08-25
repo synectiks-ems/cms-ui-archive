@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/go-xorm/xorm"
-	. "github.com/xformation/cms-ui/pkg/services/sqlstore/migrator"
-	"github.com/xformation/cms-ui/pkg/services/sqlstore/sqlutil"
+	. "github.com/synectiks-ems/ems-ui/pkg/services/sqlstore/migrator"
+	"github.com/synectiks-ems/ems-ui/pkg/services/sqlstore/sqlutil"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

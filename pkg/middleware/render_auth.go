@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/util"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 var renderKeysLock sync.Mutex

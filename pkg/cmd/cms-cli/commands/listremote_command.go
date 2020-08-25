@@ -1,8 +1,8 @@
 package commands
 
 import (
-	"github.com/xformation/cms-ui/pkg/cmd/cms-cli/logger"
-	s "github.com/xformation/cms-ui/pkg/cmd/cms-cli/services"
+	"github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/logger"
+	s "github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/services"
 )
 
 func listremoteCommand(c CommandLine) error {

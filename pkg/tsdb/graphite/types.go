@@ -1,6 +1,6 @@
 package graphite
 
-import "github.com/xformation/cms-ui/pkg/tsdb"
+import "github.com/synectiks-ems/ems-ui/pkg/tsdb"
 
 type TargetResponseDTO struct {
 	Target     string                `json:"target"`

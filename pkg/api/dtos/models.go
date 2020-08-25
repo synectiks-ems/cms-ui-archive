@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 type AnyId struct {

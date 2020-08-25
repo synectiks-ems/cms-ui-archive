@@ -1,6 +1,6 @@
 package dtos
 
-import m "github.com/xformation/cms-ui/pkg/models"
+import m "github.com/synectiks-ems/ems-ui/pkg/models"
 
 type AddInviteForm struct {
 	LoginOrEmail string     `json:"loginOrEmail" binding:"Required"`

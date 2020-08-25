@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 	"gopkg.in/macaron.v1"
 
 	gocache "github.com/patrickmn/go-cache"

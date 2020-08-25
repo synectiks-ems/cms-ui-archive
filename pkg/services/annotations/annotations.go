@@ -1,6 +1,6 @@
 package annotations
 
-import "github.com/xformation/cms-ui/pkg/components/simplejson"
+import "github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
 
 type Repository interface {
 	Save(item *Item) error

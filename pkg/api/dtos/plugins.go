@@ -1,8 +1,8 @@
 package dtos
 
 import (
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	"github.com/xformation/cms-ui/pkg/plugins"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/plugins"
 )
 
 type PluginSetting struct {

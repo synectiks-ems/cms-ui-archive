@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/services/rendering"
-	"github.com/xformation/cms-ui/pkg/util"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/services/rendering"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 func (hs *HTTPServer) RenderToPng(c *m.ReqContext) {

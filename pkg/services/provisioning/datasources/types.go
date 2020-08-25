@@ -1,9 +1,9 @@
 package datasources
 
 import (
-	"github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
 )
-import "github.com/xformation/cms-ui/pkg/components/simplejson"
+import "github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
 
 type ConfigVersion struct {
 	ApiVersion int64 `json:"apiVersion" yaml:"apiVersion"`

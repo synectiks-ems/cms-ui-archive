@@ -8,8 +8,8 @@ import (
 	"time"
 
 	plugin "github.com/hashicorp/go-plugin"
-	pluginModel "github.com/xformation/cms-ui-plugin-model/go/renderer"
-	"github.com/xformation/cms-ui/pkg/plugins"
+	pluginModel "github.com/synectiks-ems/cms-ui-plugin-model/go/renderer"
+	"github.com/synectiks-ems/ems-ui/pkg/plugins"
 )
 
 func (rs *RenderingService) startPlugin(ctx context.Context) error {

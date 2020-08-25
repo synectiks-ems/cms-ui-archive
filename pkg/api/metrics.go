@@ -3,13 +3,13 @@ package api
 import (
 	"context"
 
-	"github.com/xformation/cms-ui/pkg/api/dtos"
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/tsdb"
-	"github.com/xformation/cms-ui/pkg/tsdb/testdata"
-	"github.com/xformation/cms-ui/pkg/util"
+	"github.com/synectiks-ems/ems-ui/pkg/api/dtos"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb/testdata"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 // POST /api/tsdb/query

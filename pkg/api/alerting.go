@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/xformation/cms-ui/pkg/api/dtos"
-	"github.com/xformation/cms-ui/pkg/bus"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/services/alerting"
-	"github.com/xformation/cms-ui/pkg/services/guardian"
-	"github.com/xformation/cms-ui/pkg/services/search"
+	"github.com/synectiks-ems/ems-ui/pkg/api/dtos"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/services/alerting"
+	"github.com/synectiks-ems/ems-ui/pkg/services/guardian"
+	"github.com/synectiks-ems/ems-ui/pkg/services/search"
 )
 
 func ValidateOrgAlert(c *m.ReqContext) {

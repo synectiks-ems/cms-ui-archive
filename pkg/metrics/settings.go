@@ -5,11 +5,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/social"
+	"github.com/synectiks-ems/ems-ui/pkg/social"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/xformation/cms-ui/pkg/metrics/graphitebridge"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/metrics/graphitebridge"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 func (im *InternalMetricsService) readSettings() error {

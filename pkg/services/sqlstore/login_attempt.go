@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	m "github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 var getTimeNow = time.Now

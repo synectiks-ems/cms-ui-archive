@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/services/annotations"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/services/annotations"
 )
 
 type SqlAnnotationRepo struct {

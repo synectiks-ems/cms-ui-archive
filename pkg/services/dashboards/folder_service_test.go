@@ -3,10 +3,10 @@ package dashboards
 import (
 	"testing"
 
-	"github.com/xformation/cms-ui/pkg/bus"
-	"github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
 
-	"github.com/xformation/cms-ui/pkg/services/guardian"
+	"github.com/synectiks-ems/ems-ui/pkg/services/guardian"
 
 	. "github.com/smartystreets/goconvey/convey"
 )

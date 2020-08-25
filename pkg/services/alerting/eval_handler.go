@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/metrics"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/metrics"
 )
 
 type DefaultEvalHandler struct {

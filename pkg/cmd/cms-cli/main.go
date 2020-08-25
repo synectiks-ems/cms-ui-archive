@@ -6,10 +6,10 @@ import (
 	"runtime"
 
 	"github.com/codegangsta/cli"
-	"github.com/xformation/cms-ui/pkg/cmd/cms-cli/commands"
-	"github.com/xformation/cms-ui/pkg/cmd/cms-cli/logger"
-	"github.com/xformation/cms-ui/pkg/cmd/cms-cli/services"
-	"github.com/xformation/cms-ui/pkg/cmd/cms-cli/utils"
+	"github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/commands"
+	"github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/logger"
+	"github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/services"
+	"github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/utils"
 )
 
 var version = "master"
@@ -21,7 +21,7 @@ func main() {
 	app.Name = "cms cli"
 	app.Usage = ""
 	app.Author = "cms Project"
-	app.Email = "https://github.com/xformation/cms-ui"
+	app.Email = "https://github.com/synectiks-ems/ems-ui"
 	app.Version = version
 	app.Flags = []cli.Flag{
 		cli.StringFlag{

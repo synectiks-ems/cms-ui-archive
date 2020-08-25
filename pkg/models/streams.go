@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/xformation/cms-ui/pkg/components/null"
+	"github.com/synectiks-ems/ems-ui/pkg/components/null"
 )
 
 type TimePoint [2]null.Float

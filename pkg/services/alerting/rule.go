@@ -6,9 +6,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
 
-	m "github.com/xformation/cms-ui/pkg/models"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 type Rule struct {

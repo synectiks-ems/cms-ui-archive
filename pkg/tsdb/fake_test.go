@@ -3,7 +3,7 @@ package tsdb
 import (
 	"context"
 
-	"github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 type FakeExecutor struct {

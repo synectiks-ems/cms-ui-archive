@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/go-xorm/xorm"
-	. "github.com/xformation/cms-ui/pkg/services/sqlstore/migrator"
-	"github.com/xformation/cms-ui/pkg/util"
+	. "github.com/synectiks-ems/ems-ui/pkg/services/sqlstore/migrator"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 func addUserMigrations(mg *Migrator) {

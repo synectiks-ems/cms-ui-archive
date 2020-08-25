@@ -3,12 +3,12 @@ package api
 import (
 	"strings"
 
-	"github.com/xformation/cms-ui/pkg/api/dtos"
-	"github.com/xformation/cms-ui/pkg/components/simplejson"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/services/annotations"
-	"github.com/xformation/cms-ui/pkg/services/guardian"
-	"github.com/xformation/cms-ui/pkg/util"
+	"github.com/synectiks-ems/ems-ui/pkg/api/dtos"
+	"github.com/synectiks-ems/ems-ui/pkg/components/simplejson"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/services/annotations"
+	"github.com/synectiks-ems/ems-ui/pkg/services/guardian"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 func GetAnnotations(c *m.ReqContext) Response {

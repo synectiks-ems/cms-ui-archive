@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	m "github.com/xformation/cms-ui/pkg/models"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
 	macaron "gopkg.in/macaron.v1"
 )
 

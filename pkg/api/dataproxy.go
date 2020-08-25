@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/xformation/cms-ui/pkg/api/pluginproxy"
-	"github.com/xformation/cms-ui/pkg/metrics"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/plugins"
+	"github.com/synectiks-ems/ems-ui/pkg/api/pluginproxy"
+	"github.com/synectiks-ems/ems-ui/pkg/metrics"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/plugins"
 )
 
 func (hs *HTTPServer) ProxyDataSourceRequest(c *m.ReqContext) {

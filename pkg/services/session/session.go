@@ -8,7 +8,7 @@ import (
 	_ "github.com/go-macaron/session/memcache"
 	_ "github.com/go-macaron/session/postgres"
 	_ "github.com/go-macaron/session/redis"
-	"github.com/xformation/cms-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
 	"gopkg.in/macaron.v1"
 )
 
@@ -106,7 +106,7 @@ type SessionWrapper struct {
 }
 
 func (s *SessionWrapper) Start(c *macaron.Context) error {
-	// See https://github.com/xformation/cms-ui/issues/11155 for details on why
+	// See https://github.com/synectiks-ems/ems-ui/issues/11155 for details on why
 	// a recover and retry is needed
 	defer func() error {
 		if err := recover(); err != nil {

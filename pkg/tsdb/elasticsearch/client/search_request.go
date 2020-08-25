@@ -3,7 +3,7 @@ package es
 import (
 	"strings"
 
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 )
 
 // SearchRequestBuilder represents a builder which can build a search request

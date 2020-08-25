@@ -3,11 +3,11 @@ package api
 import (
 	"fmt"
 
-	"github.com/xformation/cms-ui/pkg/api/dtos"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/services/dashboards"
-	"github.com/xformation/cms-ui/pkg/services/guardian"
-	"github.com/xformation/cms-ui/pkg/util"
+	"github.com/synectiks-ems/ems-ui/pkg/api/dtos"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/services/dashboards"
+	"github.com/synectiks-ems/ems-ui/pkg/services/guardian"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 func GetFolders(c *m.ReqContext) Response {

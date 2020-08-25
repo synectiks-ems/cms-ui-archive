@@ -429,7 +429,7 @@ func rmr(paths ...string) {
 func clean() {
 	rmr("dist")
 	rmr("tmp")
-	rmr(filepath.Join(os.Getenv("GOPATH"), fmt.Sprintf("pkg/%s_%s/github.com/xformation/cms-ui", goos, goarch)))
+	rmr(filepath.Join(os.Getenv("GOPATH"), fmt.Sprintf("pkg/%s_%s/github.com/synectiks-ems/ems-ui", goos, goarch)))
 }
 
 func setBuildEnv() {

@@ -16,7 +16,7 @@ import (
 	"github.com/inconshreveable/log15"
 	isatty "github.com/mattn/go-isatty"
 
-	"github.com/xformation/cms-ui/pkg/util"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 var Root log15.Logger

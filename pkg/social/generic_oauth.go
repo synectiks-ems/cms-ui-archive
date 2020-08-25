@@ -9,7 +9,7 @@ import (
 	"net/mail"
 	"regexp"
 
-	"github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/models"
 
 	"golang.org/x/oauth2"
 )

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/metrics"
+	"github.com/synectiks-ems/ems-ui/pkg/metrics"
 	"gopkg.in/macaron.v1"
 )
 

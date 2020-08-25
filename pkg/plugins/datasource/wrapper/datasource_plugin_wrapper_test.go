@@ -3,9 +3,9 @@ package wrapper
 import (
 	"testing"
 
-	"github.com/xformation/cms-ui-plugin-model/go/datasource"
-	"github.com/xformation/cms-ui/pkg/log"
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/cms-ui-plugin-model/go/datasource"
+	"github.com/synectiks-ems/ems-ui/pkg/log"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 )
 
 func TestMapTables(t *testing.T) {

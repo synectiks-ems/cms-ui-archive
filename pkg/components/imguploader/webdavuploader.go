@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xformation/cms-ui/pkg/util"
+	"github.com/synectiks-ems/ems-ui/pkg/util"
 )
 
 type WebdavUploader struct {

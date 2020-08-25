@@ -5,8 +5,8 @@ import (
 	"time"
 
 	. "github.com/smartystreets/goconvey/convey"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/setting"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 func TestQuotaCommandsAndQueries(t *testing.T) {
@@ -170,7 +170,7 @@ func TestQuotaCommandsAndQueries(t *testing.T) {
 			So(query.Result.Used, ShouldEqual, 1)
 		})
 
-		// related: https://github.com/xformation/cms-ui/issues/14342
+		// related: https://github.com/synectiks-ems/ems-ui/issues/14342
 		Convey("Should org quota updating is successful even if it called multiple time", func() {
 			orgCmd := m.UpdateOrgQuotaCmd{
 				OrgId:  orgId,
@@ -202,7 +202,7 @@ func TestQuotaCommandsAndQueries(t *testing.T) {
 			So(query.Result.Limit, ShouldEqual, 10)
 		})
 
-		// related: https://github.com/xformation/cms-ui/issues/14342
+		// related: https://github.com/synectiks-ems/ems-ui/issues/14342
 		Convey("Should user quota updating is successful even if it called multiple time", func() {
 			userQuotaCmd := m.UpdateUserQuotaCmd{
 				UserId: userId,

@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	. "github.com/smartystreets/goconvey/convey"
-	"github.com/xformation/cms-ui/pkg/tsdb"
+	"github.com/synectiks-ems/ems-ui/pkg/tsdb"
 )
 
 func TestInfluxdbQueryBuilder(t *testing.T) {

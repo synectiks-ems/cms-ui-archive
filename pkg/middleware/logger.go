@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	m "github.com/xformation/cms-ui/pkg/models"
-	"github.com/xformation/cms-ui/pkg/setting"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 	"gopkg.in/macaron.v1"
 )
 

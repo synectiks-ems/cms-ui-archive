@@ -3,7 +3,7 @@ package commands
 import (
 	"testing"
 
-	m "github.com/xformation/cms-ui/pkg/cmd/cms-cli/models"
+	m "github.com/synectiks-ems/ems-ui/pkg/cmd/cms-cli/models"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

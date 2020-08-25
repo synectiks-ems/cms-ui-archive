@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/xformation/cms-ui/pkg/registry"
-	"github.com/xformation/cms-ui/pkg/services/provisioning/dashboards"
-	"github.com/xformation/cms-ui/pkg/services/provisioning/datasources"
-	"github.com/xformation/cms-ui/pkg/setting"
+	"github.com/synectiks-ems/ems-ui/pkg/registry"
+	"github.com/synectiks-ems/ems-ui/pkg/services/provisioning/dashboards"
+	"github.com/synectiks-ems/ems-ui/pkg/services/provisioning/datasources"
+	"github.com/synectiks-ems/ems-ui/pkg/setting"
 )
 
 func init() {

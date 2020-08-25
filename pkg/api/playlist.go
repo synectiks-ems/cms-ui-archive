@@ -1,9 +1,9 @@
 package api
 
 import (
-	"github.com/xformation/cms-ui/pkg/bus"
-	_ "github.com/xformation/cms-ui/pkg/log"
-	m "github.com/xformation/cms-ui/pkg/models"
+	"github.com/synectiks-ems/ems-ui/pkg/bus"
+	_ "github.com/synectiks-ems/ems-ui/pkg/log"
+	m "github.com/synectiks-ems/ems-ui/pkg/models"
 )
 
 func ValidateOrgPlaylist(c *m.ReqContext) {
