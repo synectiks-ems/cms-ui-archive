@@ -6,7 +6,7 @@ export class GlobalRestUrlConstants {
   BASE_URL: string;
   constructor() {
     this.PROTOCOL = 'http';
-    this.IP = 'localhost'; //18.209.4.2
+    this.IP = '100.81.5.26'; //18.209.4.2
     this.PORT = '8080';
     this.ROOT_API = 'api';
     this.BASE_URL = this.PROTOCOL + '://' + this.IP + ':' + this.PORT + '/' + this.ROOT_API;

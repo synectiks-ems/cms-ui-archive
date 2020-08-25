@@ -1,5 +1,5 @@
-const secSrvUrl = 'http://localhost:8094';
-const apiUrl = 'http://localhost:8080';
+const secSrvUrl = 'http://100.81.5.26:8094';
+const apiUrl = 'http://100.81.5.26:8080';
 // 18.234.66.133
 export const config = {
   PERMS_LIST_ALL: secSrvUrl + '/security/permissions/listAll',
