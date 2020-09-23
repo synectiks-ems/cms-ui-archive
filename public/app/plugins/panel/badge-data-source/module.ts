@@ -6,9 +6,8 @@ import { BadgeRenderer } from './renderer';
 class BadgeDataSourceCtrl extends MetricsPanelCtrl {
   static templateUrl = './partials/module.html';
   panelDefaults = {
-    totalBadges: 1,
-    badgesInfo: [],
-    apiEndPoint: '',
+    keyRegex: '',
+    labelRegex: '',
   };
   data: null;
   isLoading: any;
@@ -52,6 +51,7 @@ class BadgeDataSourceCtrl extends MetricsPanelCtrl {
       ],
     },
   ];
+  badgeRenderer: any;
   constructor($scope, $injector) {
     super($scope, $injector);
     this.isLoading = false;
@@ -66,14 +66,16 @@ class BadgeDataSourceCtrl extends MetricsPanelCtrl {
 
   onDataReceived(dataList: any) {
     this.data = dataList;
-    this.data = this.dummyData;
+    // this.data = this.dummyData;
     this.render();
   }
 
   render() {
-    const badgeRenderer = new BadgeRenderer();
+    if (!this.badgeRenderer) {
+      this.badgeRenderer = new BadgeRenderer();
+    }
     this.isLoading = false;
-    const badgeHtml = badgeRenderer.createHtml(this.isLoading, this.data);
+    const badgeHtml = this.badgeRenderer.createHtml(this.data, this.panel);
     return super.render(badgeHtml);
   }
 

@@ -1,101 +1,17 @@
 <div class="gf-form-group" style="margin-bottom: 10px;">
-	<div class="gf-form-inline">
-		<div class="gf-form">
-			<span class="gf-form-label width-10">API End Point</span>
-			<input class="gf-form-input" type="text" ng-model="editor.apiEndPoint"
-				ng-change="editor.onChangeApiEndPoint()" />
-		</div>
+	<div class="gf-form">
+		<span class="gf-form-label width-10">Label Regex</span>
+		<input class="gf-form-input" type="text" ng-model="editor.labelRegex"
+			ng-change="editor.onChangeLabelRegex()" />
+	</div>
+	<div class="gf-form">
+		<span class="gf-form-label width-10">Key Regex</span>
+		<input class="gf-form-input" type="text" ng-model="editor.keyRegex"
+			ng-change="editor.onChangeKeyRegex()" />
 	</div>
 </div>
 
-<!-- <div class="editor-row" style="margin-bottom: 2.5rem">
-	<div class="gf-form">
-		<button class="btn btn-success" ng-click="editor.getData()">
-			Get Data
-		</button>
-	</div>
-</div> -->
-
-<!-- <div class="gf-form-group">
-	<div class="gf-form-inline">
-		<div class="gf-form">
-			<span class="gf-form-label width-10">Total Badges</span>
-			<input class="gf-form-input" type="text" ng-model="editor.totalBadges"
-				ng-change="editor.onChangeTotalBadges()" />
-		</div>
-	</div>
-</div> -->
-
 <div class="editor-row">
-	<div class="section gf-form-group" ng-repeat="badgeInfo in editor.badgesInfo">
-		<h5 class="section-heading">Badge {{$index + 1}} Info:</h5>
-		<div class="gf-form">
-			<label class="gf-form-label width-8">Header Key</label>
-			<input type="text" class="gf-form-input max-width-20"
-				bs-tooltip="" ng-model="badgeInfo.headerKey"
-				ng-change="editor.onChangeBadgeInfo()"/>
-		</div>
-		<div class="gf-form">
-			<label class="gf-form-label width-8">Info1 Label:</label>
-			<input type="text" class="gf-form-input max-width-20"
-				bs-tooltip="" ng-model="badgeInfo.info1Label"
-				ng-change="editor.onChangeBadgeInfo()"/>
-		</div>
-		<div class="gf-form">
-			<label class="gf-form-label width-8">Info1 Key:</label>
-			<input type="text" class="gf-form-input max-width-20"
-				bs-tooltip="" ng-model="badgeInfo.info1Key"
-				ng-change="editor.onChangeBadgeInfo()"/>
-		</div>
-		<div class="gf-form">
-			<label class="gf-form-label width-8">Info2 Label:</label>
-			<input type="text" class="gf-form-input max-width-20"
-				bs-tooltip="" ng-model="badgeInfo.info2Label"
-				ng-change="editor.onChangeBadgeInfo()" />
-		</div>
-		<div class="gf-form">
-			<label class="gf-form-label width-8">Info2 Key:</label>
-			<input type="text" class="gf-form-input max-width-20"
-				bs-tooltip="" ng-model="badgeInfo.info2Key"
-				ng-change="editor.onChangeBadgeInfo()" />
-		</div>
-		<div class="gf-form">
-			<label class="gf-form-label width-8">Info3 Label:</label>
-			<input type="text" class="gf-form-input max-width-20"
-				bs-tooltip="" ng-model="badgeInfo.info3Label"
-				ng-change="editor.onChangeBadgeInfo()" />
-		</div>
-		<div class="gf-form">
-			<label class="gf-form-label width-8">Info3 Key:</label>
-			<input type="text" class="gf-form-input max-width-20"
-				bs-tooltip="" ng-model="badgeInfo.info3Key"
-				ng-change="editor.onChangeBadgeInfo()" />
-		</div>
-		<div class="gf-form">
-			<label class="gf-form-label width-8">Info4 Label:</label>
-			<input type="text" class="gf-form-input max-width-20"
-				bs-tooltip="" ng-model="badgeInfo.info4Label"
-				ng-change="editor.onChangeBadgeInfo()" />
-		</div>
-		<div class="gf-form">
-			<label class="gf-form-label width-8">Info4 Key:</label>
-			<input type="text" class="gf-form-input max-width-20"
-				bs-tooltip="" ng-model="badgeInfo.info4Key"
-				ng-change="editor.onChangeBadgeInfo()" />
-		</div>
-		<div class="gf-form">
-			<label class="gf-form-label width-8">Department Key:</label>
-			<input type="text" class="gf-form-input max-width-20"
-				bs-tooltip="" ng-model="badgeInfo.departmentKey"
-				ng-change="editor.onChangeBadgeInfo()" />
-		</div>
-		<div class="gf-form">
-			<label class="gf-form-label width-8">Year Key:</label>
-			<input type="text" class="gf-form-input max-width-20"
-				bs-tooltip="" ng-model="badgeInfo.yearKey"
-				ng-change="editor.onChangeBadgeInfo()" />
-		</div>
-	</div>
 	<div class="gf-form">
 		<button class="btn btn-success" ng-click="editor.render()">
 			Render
