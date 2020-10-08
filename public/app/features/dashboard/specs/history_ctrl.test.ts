@@ -28,7 +28,7 @@ describe('HistoryListCtrl', () => {
     let deferred;
 
     beforeEach(() => {
-      deferred = $q.defer({});
+      deferred = $q.defer();
       historySrv.getHistoryList = jest.fn(() => deferred.promise);
 
       historyListCtrl = new HistoryListCtrl({}, $rootScope, {}, $q, historySrv, {});
@@ -133,7 +133,7 @@ describe('HistoryListCtrl', () => {
     let deferred;
 
     beforeEach(async () => {
-      deferred = $q.defer({});
+      deferred = $q.defer();
       historySrv.getHistoryList = jest.fn(() => $q.when(versionsResponse));
       historySrv.calculateDiff = jest.fn(() => deferred.promise);
 
@@ -171,7 +171,7 @@ describe('HistoryListCtrl', () => {
 
     describe('and the basic diff is successfully fetched', () => {
       beforeEach(async () => {
-        deferred = $q.defer({});
+        deferred = $q.defer();
         historySrv.calculateDiff = jest.fn(() => deferred.promise);
         deferred.resolve(compare('basic'));
         historyListCtrl.revisions[1].checked = true;
@@ -197,7 +197,7 @@ describe('HistoryListCtrl', () => {
 
     describe('and the json diff is successfully fetched', () => {
       beforeEach(async () => {
-        deferred = $q.defer({});
+        deferred = $q.defer();
         historySrv.calculateDiff = jest.fn(() => deferred.promise);
         deferred.resolve(compare('json'));
         historyListCtrl.revisions[1].checked = true;
@@ -244,7 +244,7 @@ describe('HistoryListCtrl', () => {
 
     describe('and fetching the diff fails', () => {
       beforeEach(async () => {
-        deferred = $q.defer({});
+        deferred = $q.defer();
         historySrv.calculateDiff = jest.fn(() => deferred.promise);
 
         historyListCtrl.revisions[3].checked = true;
